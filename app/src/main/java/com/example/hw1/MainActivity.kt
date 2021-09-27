@@ -7,7 +7,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    var textView: TextView? = null
+    private var textView: TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
         textView = findViewById(R.id.text)
-        findViewById<Button>(R.id.button).setOnClickListener(){
+        findViewById<Button>(R.id.button).setOnClickListener() {
             val newText = "Pushed"
             textView?.text = newText
         }
