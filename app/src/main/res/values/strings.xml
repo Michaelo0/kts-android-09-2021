@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Unsplash</string>
+    <string name="button_text">Push</string>
 </resources>
